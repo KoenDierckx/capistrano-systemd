@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-systemd"
-  spec.version       = "0.1.1"
-  spec.authors       = ["CrBoy"]
-  spec.email         = ["crboy@crboy.net"]
+  spec.version       = "0.2.0"
+  spec.authors       = ["Koen Dierckx"]
+  spec.email         = ["koen.dierckx@gmail.com"]
 
   spec.summary       = %q{Systemd operations for capistrano}
   spec.description   = %q{}
-  spec.homepage      = "https://github.com/CrBoy/capistrano-systemd"
+  spec.homepage      = "https://github.com/KoenDierckx/capistrano-systemd"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
